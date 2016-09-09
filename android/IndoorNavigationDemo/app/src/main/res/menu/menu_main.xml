@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="demo.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_add_destination_nodes"
+        android:title="@string/action_add_destination_nodes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add_transition_nodes"
+        android:orderInCategory="100"
+        android:title="@string/action_add_transition_nodes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_connect_edges"
+        android:orderInCategory="100"
+        android:title="@string/action_connect_edges"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_run"
+        android:orderInCategory="100"
+        android:title="@string/action_run"
+        app:showAsAction="never" />
+</menu>

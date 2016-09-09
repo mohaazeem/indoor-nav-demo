@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IndoorNavigationDemo</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Menu items -->
+    <string name="action_add_destination_nodes">Add Destination Nodes</string>
+    <string name="action_add_transition_nodes">Add Transition Nodes</string>
+    <string name="action_connect_edges">Connect Edges</string>
+    <string name="action_run">Run</string>
+</resources>
