@@ -1,4 +1,4 @@
-package demo.indoornavigationdemo.model;
+package demo.indoornavigationdemo;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
      * 3. Receive path from A* (after sending it from Rails side)
      * 4. Update view on canvas with the highlighted path
      */
-    public void run() {
+    public void runMode() {
 
     }
 

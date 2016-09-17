@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  label: MyString
+  x: 1.5
+  'y': 1.5
+  type: 1
+  graph_id: 
+
+two:
+  label: MyString
+  x: 1.5
+  'y': 1.5
+  type: 1
+  graph_id: 
