@@ -1,0 +1,18 @@
+Pseudo code following localization
+==================================
+
+1.  t <- nearest transition node
+2.  connect(user, t)
+3.  apply A* to the graph
+4.  {{},{}} <- initialize path p json string
+5.  loop over result of A*
+6.    p <- {{n1, n2}, {e1}} // probably just ids
+7.  return p
+
+Pseudo code for A*, assuming it's already implemented
+=====================================================
+1.  g <- graph instance by id
+2.  nodes <- nodes of the graph using where clause
+3.  edges <- edges of the graph using where clause
+4.  feed the nodes and the edges to the algorithm
+5.  return path <- result of algorithm
